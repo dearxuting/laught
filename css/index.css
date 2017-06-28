@@ -1,0 +1,66 @@
+* { margin: 0; padding: 0; list-style: none; font-size: 100%; list-style: none; }
+
+a { text-decoration: none; }
+
+body, html { width: 100%; height: 100%; box-sizing: border-box; }
+
+#container { width: 100%; height: 100%; }
+
+.main { width: 100%; }
+
+header { width: 100%; height: 3.95rem; display: flex; text-align: center; }
+
+header span { height: 3.15rem; display: block; height: 3.95rem; line-height: 3.95rem; margin: 0 20px; }
+
+header span #colse { font-size: 16px; height: 100%; }
+
+header span.open button { background: #ff4273; color: #fff; border: 0; font-size: 1.32px; width: 75px; height: 39px; }
+
+header p { flex: 1; height: 3.95rem; line-height: 3.95rem; }
+
+header p img { width: 3rem; height: 3rem; line-height: 3rem; margin-top: 6px; margin-right: 10px; border-radius: 5px; }
+
+.nav { width: 100%; height: 2.5rem; background: #222; }
+
+.nav ul { width: 100%; display: flex; text-align: center; }
+
+.nav ul li { flex: 1; height: 2.5rem; }
+
+.nav ul li a { display: block; width: 4.75rem; height: 2.5rem; color: #fff; line-height: 2.5rem; }
+
+.nav ul li a.on { background: #ff819f; }
+
+.section { width: 100%; background: #ccc; flex: 1; overflow-y: auto; overflow-x: hidden; }
+.section .content { width: 100%; height: auto; margin-bottom: 10px; background: white; padding: 10px; overflow: hidden; margin-bottom: 10px; }
+.section .content .one { width: 100%; height: auto; overflow: hidden; margin: 5px 0; }
+.section .content .one img { width: 30px; height: 30px; border-radius: 50%; margin-right: 5px; }
+.section .content .two { width: 100%; height: auto; overflow: hidden; padding-bottom: 5px; }
+.section .content .two .two1 { width: 100%; padding: 5px 0; }
+.section .content .two .two1 p { font-size: 18px; line-height: 18px; }
+.section .content .two .two2 { width: 100%; height: auto; }
+.section .content .two .two2 img { width: 100%; height: auto; max-height: 300px; }
+.section .content .two .af2 { position: relative; }
+.section .content .two .af2:after { content: ""; display: inline-block; width: 50px; height: 50px; border-radius: 50%; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); background: rgba(45, 45, 45, 0.3) url(../img/bofang.jpg) no-repeat center; background-size: 100% 100%; z-index: 30; text-align: center; line-height: 50px; }
+.section .content .there { width: 100%; height: auto; overflow: hidden; padding: 10px 0; border-bottom: 1px solid aliceblue; z-index: 3; position: relative; }
+.section .content .there .there1 { float: left; margin-right: 20px; z-index: 10; }
+.section .content .there .there1 .sp1 { margin-right: 10px; }
+.section .content .there .there1 .sp1 .color1 { color: orange; }
+.section .content .there .there2 { float: left; margin-right: 20px; z-index: 3; }
+.section .content .there .there2 .sp2 { margin-right: 10px; }
+.section .content .there .there2 .sp2 .color2 { color: orange; }
+.section .content .there .there3 { float: left; }
+.section .content .there .there3 .sp3 { margin-right: 10px; }
+.section .content .there .there4 { float: right; }
+.section .content .there .there4 .sp4 { margin-right: 10px; }
+.section .content .shenping { width: 100%; height: auto; overflow: hidden; padding: 3px 5px; }
+.section .content .shenping .shenping1 { display: inline-block; width: 30px; height: 20px; background: url(../img/shen.png); }
+.section .content .shenping .shenping2 { text-overflow: ellipsis; overflow: hidden; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; }
+
+.tdiv { width: 100%; height: 50px; line-height: 50px; text-align: center; background: rgba(45, 45, 45, 0.5); }
+
+@font-face { font-family: 'iconfont'; src: url("iconfont.eot"); src: url("iconfont.eot?#iefix") format("embedded-opentype"), url("iconfont.woff") format("woff"), url("iconfont.ttf") format("truetype"), url("iconfont.svg#iconfont") format("svg"); }
+.iconfont { font-family: "iconfont" !important; font-size: 20px; font-style: normal; -webkit-font-smoothing: antialiased; -webkit-text-stroke-width: 0.2px; -moz-osx-font-smoothing: grayscale; }
+
+.go { position: fixed; width: 50px; height: 50px; border-radius: 50%; background: url(../img/go.png) no-repeat; background-size: 100% 100%; opacity: 0.5; bottom: 30px; right: 30px; overflow: hidden; }
+
+/*# sourceMappingURL=index.css.map */

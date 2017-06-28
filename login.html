@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+		<title>登录</title>
+		 <script>
+    	document.documentElement.style.fontsize=innerWidth/16+"px";
+    </script>
+    <link rel="stylesheet" href="bs/css/bootstrap.css" />
+    <link rel="stylesheet" href="css/login.css" />
+    <script type="text/javascript" src="js/jquery-3.2.1.js" ></script>
+    <script>
+    	$(function(){
+    		$("#xz").click(function(){
+    			$("aside").css("display","block");
+    			
+    		})
+    		$(".colse").click(function(){
+    			$("aside").css("display","none");
+    		})
+    	})
+    	
+    </script>
+	</head>
+	<body>
+		<div class="container">
+			<header>
+					<span>我的</span>
+					<a href="find.html" id="btn-back"><</a>
+			</header>
+			<section>
+				<ul>
+					<li><img src="img/p11.jpg"></li>
+					<li><button>立即注册</button></li>
+				</ul>
+				<aside>
+					<div class="adv">
+						<img src="img/logo.png" />
+						<i class="colse">X</i>
+						<h1>内涵段子</h1>
+						<p class="intro">下载APP，帮你涨姿势、内涵</p>
+						<a href="#">立即下载</a>
+					</div>
+					
+				</aside>
+			</section>
+			<div class="main">
+				<ul>
+					<li><span class="glyphicon glyphicon-globe"></span><span class="zy">段友圈</span><span class=" r" id="xz">></span></li>
+					<li><span class="glyphicon glyphicon-list-alt"></span><span class="zy">投稿</span><span class="r" id="xz">></span></li>
+					<li><span class="glyphicon glyphicon-comment"></span><span class="zy">评论</span><span class="r" id="xz">></span></li>
+					<li><span class="glyphicon glyphicon-star-empty"></span><span class="zy">收藏</span><span class="r" id="xz">></span></li>
+					<li><span class="glyphicon glyphicon-edit"></span><span class="zy">意见反馈</span><span class="r" id="xz">></span></li>
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>
